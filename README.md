@@ -49,7 +49,8 @@ And that's it, you should be ready to go. Just open a web browser, and your site
 
 You can now get started on your project. Key things to change first:
 
-*   This file (`src/pages/index.tsx`)
+*   The home page (`src/pages/index.tsx`)
+*   This file (`README.md`)
 *   Your project title in `package.json`, `src/components/Navigation/NavigationBanner/NavigationBanner.tsx`, and `src/components/MainLayout/MainLayout.tsx`
 
 For an official Canonical project, make sure you change `VITE_UI_PORT` in the `.env` file according to the [webteam standards](https://webteam.canonical.com/practices/project-ports).
