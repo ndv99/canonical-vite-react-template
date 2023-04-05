@@ -6,7 +6,7 @@ import { routesConfig } from "@/routes";
 
 const getPageTitle = (pathname: RoutePath) => {
   const title = Object.values(routesConfig).find(({ path }) => path === pathname)?.title;
-  return title ? `${title} | MAAS Site Manager` : "MAAS Site Manager";
+  return title ? `${title} | Vite React Template` : "Vite React Template";
 };
 
 const MainLayout: React.FC = () => {
