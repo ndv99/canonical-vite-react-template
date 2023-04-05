@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 import AutoImport from "unplugin-auto-import/vite";
 import dotenv from "dotenv";
 import * as path from "path";
@@ -9,7 +9,7 @@ dotenv.config({ path: "./.env" });
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    react(), 
+    react(),
     AutoImport({
       imports: ["react", "react-router-dom"],
       dts: true,
@@ -22,4 +22,4 @@ export default defineConfig({
   resolve: {
     alias: { "@": path.resolve(__dirname, "src") },
   },
-})
+});
