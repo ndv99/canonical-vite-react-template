@@ -1,6 +1,7 @@
 import { Outlet, useLocation } from "react-router-dom";
 
 import DocumentTitle from "@/components/DocumentTitle";
+import Navigation from "@/components/Navigation";
 import type { RoutePath } from "@/routes";
 import { routesConfig } from "@/routes";
 
@@ -16,7 +17,7 @@ const MainLayout: React.FC = () => {
     <>
       <DocumentTitle>{getPageTitle(pathname as RoutePath)}</DocumentTitle>
       <div className="l-application">
-        {/* nav */}
+        <Navigation />
         <main className="l-main">
           <div className="row">
             <div className="col-12">

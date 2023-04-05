@@ -9,9 +9,13 @@
 @include vf-p-headings;
 @include vf-p-links;
 @include vf-p-navigation;
+@include vf-p-side-navigation;
+@include vf-p-buttons;
+@include vf-p-tooltips;
 
 // Icons
 @include vf-p-icons;
+@include vf-p-icons-common;
 
 // Utilities
 @include vf-u-align;
@@ -19,4 +23,12 @@
 
 // Layout
 @include vf-l-application;
+@include vf-l-application-panels;
+@include vf-l-full-width;
 @include vf-l-site;
+
+// Local SCSS
+@import "@/patterns_icons";
+
+// Components
+@import "@/components/Navigation/Navigation";
