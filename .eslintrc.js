@@ -166,15 +166,5 @@ module.exports = {
         "react/no-multi-comp": "off",
       },
     },
-    {
-      files: ["cypress/**/*.spec.[jt]s?(x)"],
-      extends: ["plugin:cypress/recommended", "plugin:prettier/recommended"],
-      plugins: ["cypress", "no-only-tests"],
-      rules: {
-        "no-only-tests/no-only-tests": "error",
-        "cypress/no-force": "warn",
-        "prettier/prettier": "error",
-      },
-    },
   ],
 };
