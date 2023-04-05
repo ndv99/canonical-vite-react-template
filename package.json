@@ -1,0 +1,69 @@
+{
+  "name": "canonical-vite-react-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "preview": "vite preview",
+    "lint": "npmPkgJsonLint . && tsc && eslint . --ext .ts,.tsx",
+    "lint-fix": "eslint . --ext .ts,.tsx --fix"
+  },
+  "dependencies": {
+    "@canonical/react-components": "0.40.1",
+    "classnames": "2.3.2",
+    "formik": "2.2.9",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.10.0",
+    "vanilla-framework": "3.13.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.32.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "14.0.0",
+    "@testing-library/react-hooks": "8.0.1",
+    "@testing-library/user-event": "14.4.3",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@typescript-eslint/eslint-plugin": "5.57.1",
+    "@typescript-eslint/parser": "5.57.1",
+    "@vitejs/plugin-react": "3.1.0",
+    "dotenv": "^16.0.3",
+    "eslint": "8.37.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-config-react-app": "7.0.1",
+    "eslint-import-resolver-typescript": "3.5.4",
+    "eslint-plugin-no-relative-import-paths": "1.5.2",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.32.2",
+    "npm-package-json-lint": "6.4.0",
+    "postcss": "8.4.21",
+    "prettier": "2.8.7",
+    "sass": "1.60.0",
+    "sass-loader": "13.2.2",
+    "stylelint": "15.4.0",
+    "stylelint-config-prettier": "9.0.5",
+    "stylelint-config-standard": "32.0.0",
+    "stylelint-config-standard-scss": "7.0.1",
+    "stylelint-order": "6.0.3",
+    "stylelint-prettier": "3.0.0",
+    "stylelint-scss": "4.6.0",
+    "ts-loader": "9.4.2",
+    "typescript": "4.9.3",
+    "unplugin-auto-import": "^0.15.2",
+    "vite": "4.2.0",
+    "vitest": "0.29.8"
+  },
+  "npmpackagejsonlint": {
+    "rules": {
+      "prefer-absolute-version-dependencies": "error",
+      "prefer-absolute-version-devDependencies": "error",
+      "prefer-alphabetical-dependencies": "error",
+      "prefer-alphabetical-devDependencies": "error"
+    }
+  }
+}
