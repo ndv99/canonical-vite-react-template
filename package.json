@@ -31,6 +31,7 @@
     "@typescript-eslint/eslint-plugin": "5.57.1",
     "@typescript-eslint/parser": "5.57.1",
     "@vitejs/plugin-react": "3.1.0",
+    "@vitest/coverage-c8": "^0.29.8",
     "dotenv": "16.0.3",
     "eslint": "8.37.0",
     "eslint-config-prettier": "8.8.0",
