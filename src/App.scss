@@ -1,0 +1,22 @@
+@use "sass:math";
+
+@import "@/settings.scss";
+@import "vanilla-framework";
+@include vf-base;
+
+// Patterns
+@include vf-p-grid;
+@include vf-p-headings;
+@include vf-p-links;
+@include vf-p-navigation;
+
+// Icons
+@include vf-p-icons;
+
+// Utilities
+@include vf-u-align;
+@include vf-u-hide;
+
+// Layout
+@include vf-l-application;
+@include vf-l-site;
