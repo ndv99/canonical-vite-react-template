@@ -1,3 +1,6 @@
+[![CI](https://github.com/ndv99/canonical-vite-react-template/actions/workflows/CI.yml/badge.svg)](https://github.com/ndv99/canonical-vite-react-template/actions/workflows/CI.yml)
+[![Playwright Tests](https://github.com/ndv99/canonical-vite-react-template/actions/workflows/playwright.yml/badge.svg)](https://github.com/ndv99/canonical-vite-react-template/actions/workflows/playwright.yml)
+
 ## Canonical Vite Template for React projects
 
 This is an opinionated template repository for React applications at Canonical, bootstrapped with Vite.
