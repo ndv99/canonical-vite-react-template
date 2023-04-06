@@ -36,7 +36,7 @@ You will need:
        ``` 
        then
        ```
-       nvm use node
+       nvm use 16
        ```
 *   A code editor
 
