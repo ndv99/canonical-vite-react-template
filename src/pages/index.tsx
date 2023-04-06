@@ -1,6 +1,6 @@
 const Index: React.FC = () => (
   <section>
-    <h2>Welcome!</h2>
+    <h2>Welcoe!</h2>
     <p>This is an opinionated template repository for React applications at Canonical, bootstrapped with Vite.</p>
 
     <h3>What's included?</h3>
