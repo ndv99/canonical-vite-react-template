@@ -1,3 +1,8 @@
+---
+labels: "Review: Code needed", "Review: QA needed"
+
+---
+
 ## Done
 
 - Itemised list of what was changed by this PR.
