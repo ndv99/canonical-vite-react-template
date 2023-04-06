@@ -1,17 +1,12 @@
----
-labels: "Review: Code needed", "Review: QA needed"
-
----
-
 ## Done
 
-- Itemised list of what was changed by this PR.
+ - Itemised list of what was changed by this PR.
 
 ## QA
 
 ### QA steps
 
-- Steps for QA.
+ - Steps for QA.
 
 ## Fixes
 
