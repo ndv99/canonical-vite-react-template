@@ -5,5 +5,5 @@ test.beforeEach(async ({ page }) => {
 });
 
 test("displays a correct page title", async ({ page }) => {
-  await expect(page).toHaveTitle(/Canonical Vite React Template/);
+  await expect(page).toHaveTitle("Home | Vite React Template");
 });
