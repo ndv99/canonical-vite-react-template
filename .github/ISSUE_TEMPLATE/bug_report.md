@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: "Bug \U00D73A4A"
+labels: "Bug \U0D73A4A"
 assignees: ''
 
 ---
