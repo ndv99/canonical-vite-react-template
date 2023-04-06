@@ -49,8 +49,25 @@ const Index: React.FC = () => (
     <p>This was written on Ubuntu 22.10, but in theory should work on any *nix operating system.</p>
     <p>You will need:</p>
     <ul>
-      <li>yarn</li>
-      <li>NodeJS (v16 or higher)</li>
+      <li>
+        <a href="https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable">yarn</a>
+      </li>
+      <li>
+        <a href="https://nodejs.org/en/download">NodeJS</a> (v16 or higher)
+        <br />
+        <small>
+          The simplest way of doing this is to use <a href="https://github.com/nvm-sh/nvm">NVM</a>
+          <br />
+          <ol>
+            <li>
+              <code>nvm install 16</code> or <code>nvm install node</code>
+            </li>
+            <li>
+              <code>nvm use 16</code> or <code>nvm use node</code>
+            </li>
+          </ol>
+        </small>
+      </li>
       <li>A code editor</li>
     </ul>
 

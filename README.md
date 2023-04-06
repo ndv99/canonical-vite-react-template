@@ -27,8 +27,12 @@ This was written on Ubuntu 22.10, but in theory should work on any *nix operatin
 
 You will need:
 
-*   yarn
-*   NodeJS (v16 or higher)
+*   [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
+*   [NodeJS](https://nodejs.org/en/download) (v16 or higher)
+       
+       The simplest way of doing this is to use [nvm](https://github.com/nvm-sh/nvm)
+       1.  ``` nvm install 16``` or ``` nvm install node```
+       2.  ``` nvm use 16``` or ``` nvm use node```
 *   A code editor
 
 #### Instructions
