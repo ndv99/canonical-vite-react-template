@@ -56,6 +56,7 @@ const Index: React.FC = () => (
 
     <h4>Instructions</h4>
     <p>To start a new project using this template:</p>
+    <h5>Local</h5>
     <ol>
       <li>
         Install{" "}
@@ -73,6 +74,23 @@ const Index: React.FC = () => (
       <li>
         <code>cd your-project-name</code>
       </li>
+      <li>
+        Install dependencies:
+        <br />
+        <code>yarn</code>
+      </li>
+      <li>
+        Run the dev server:
+        <br />
+        <code>yarn dev</code>
+      </li>
+    </ol>
+    <h5>On GitHub</h5>
+    <ol>
+      <li>Click "Use this template"</li>
+      <li>Click "Create a new repository"</li>
+      <li>Fill out the required details</li>
+      <li>Clone your new repository</li>
       <li>
         Install dependencies:
         <br />

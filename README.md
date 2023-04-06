@@ -34,6 +34,7 @@ You will need:
 #### Instructions
 
 To start a new project using this template:
+##### Local
 
 1.  Install [degit](https://github.com/Rich-Harris/degit#installation):  
     `yarn add -G degit`
@@ -43,6 +44,17 @@ To start a new project using this template:
 4.  Install dependencies:  
     `yarn`
 5.  Run the dev server:  
+    `yarn dev`
+
+##### On GitHub
+
+1.  Click "Use this template"
+2.  Click "Create a new repository"
+3.  Fill out the required details
+4.  Clone your new repository
+5.  Install dependencies:
+    `yarn`
+6.  Run the dev server:
     `yarn dev`
 
 And that's it, you should be ready to go. Just open a web browser, and your site should be running at `your-ip-address:8999`
