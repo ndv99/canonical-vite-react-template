@@ -30,9 +30,14 @@ You will need:
 *   [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
 *   [NodeJS](https://nodejs.org/en/download) (v16 or higher)
        
-       The simplest way of doing this is to use [nvm](https://github.com/nvm-sh/nvm)
-       1.  ``` nvm install 16``` or ``` nvm install node```
-       2.  ``` nvm use 16``` or ``` nvm use node```
+       The simplest way of doing this is to use [nvm](https://github.com/nvm-sh/nvm):
+       ```
+       nvm install 16
+       ``` 
+       then
+       ```
+       nvm use node
+       ```
 *   A code editor
 
 #### Instructions
