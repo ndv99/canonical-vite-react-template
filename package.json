@@ -12,7 +12,7 @@
     "lint-fix": "eslint . --ext .ts,.tsx --fix"
   },
   "dependencies": {
-    "@canonical/react-components": "0.40.1",
+    "@canonical/react-components": "0.55.0",
     "classnames": "2.5.1",
     "formik": "2.4.6",
     "react": "18.3.1",
