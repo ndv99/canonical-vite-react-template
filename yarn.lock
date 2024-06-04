@@ -1762,7 +1762,7 @@
     magic-string "^0.27.0"
     react-refresh "^0.14.0"
 
-"@vitest/coverage-c8@^0.29.8":
+"@vitest/coverage-c8@0.29.8":
   version "0.29.8"
   resolved "https://registry.yarnpkg.com/@vitest/coverage-c8/-/coverage-c8-0.29.8.tgz#a61f5a2434af3f0fd7a7e4fe9c25bb6ed03ebd0a"
   integrity sha512-y+sEMQMctWokjnSqm3FCQEYFkjLrYaznsxEZHxcx8z2aftpYg3A5tvI1S5himfdEFo7o+OeHzh40bPSWZHW4oQ==
@@ -5790,7 +5790,7 @@ url-parse@^1.5.3:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
 
-use-local-storage-state@^18.2.1:
+use-local-storage-state@18.2.1:
   version "18.2.1"
   resolved "https://registry.yarnpkg.com/use-local-storage-state/-/use-local-storage-state-18.2.1.tgz#21c2949d8ecff898d0039a5140603a17fd114e27"
   integrity sha512-JgFWmMIIsN3uIQ2hSDhYGiYdfykMFVPNX/vz5JX/9V1igJSUjEe30CgswH076YqBx4Njea1NJ6B4farIlnSLuA==
