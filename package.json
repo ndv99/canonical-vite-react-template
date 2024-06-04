@@ -47,7 +47,7 @@
     "npm-package-json-lint": "7.1.0",
     "postcss": "8.4.38",
     "prettier": "3.3.0",
-    "sass": "1.60.0",
+    "sass": "1.77.4",
     "sass-loader": "14.2.1",
     "stylelint": "16.6.1",
     "stylelint-config-prettier": "9.0.5",
