@@ -22,7 +22,7 @@
     "vanilla-framework": "3.13.0"
   },
   "devDependencies": {
-    "@playwright/test": "1.32.2",
+    "@playwright/test": "1.44.1",
     "@testing-library/dom": "10.1.0",
     "@testing-library/jest-dom": "6.4.5",
     "@testing-library/react": "16.0.0",
