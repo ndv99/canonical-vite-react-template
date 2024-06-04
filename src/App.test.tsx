@@ -1,6 +1,7 @@
 /* eslint-disable testing-library/no-node-access */
 /* eslint-disable testing-library/no-container */
 import { waitFor, render, within } from "@testing-library/react";
+import "@testing-library/jest-dom";
 
 import App from "./App";
 
