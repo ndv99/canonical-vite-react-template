@@ -31,31 +31,32 @@ This was written on Ubuntu 22.10, but in theory should work on any *nix operatin
 You will need:
 
 *   [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
-*   [NodeJS](https://nodejs.org/en/download) (v16 or higher)
-       
+*   [NodeJS](https://nodejs.org/en/download) (v20 or higher)
+
        The simplest way of doing this is to use [nvm](https://github.com/nvm-sh/nvm):
        ```
-       nvm install 16
-       ``` 
+       nvm install 20
+       ```
        then
        ```
-       nvm use 16
+       nvm use 20
        ```
 *   A code editor
 
 #### Instructions
 
 To start a new project using this template:
+
 ##### Local
 
-1.  Install [degit](https://github.com/Rich-Harris/degit#installation):  
+1.  Install [degit](https://github.com/Rich-Harris/degit#installation):
     `yarn add -G degit`
-2.  Download the template:  
+2.  Download the template:
     `degit https://github.com/ndv99/canonical-vite-react-template your-project-name`
 3.  `cd your-project-name`
-4.  Install dependencies:  
+4.  Install dependencies:
     `yarn`
-5.  Run the dev server:  
+5.  Run the dev server:
     `yarn dev`
 
 ##### On GitHub
