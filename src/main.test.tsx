@@ -1,5 +1,6 @@
 /* eslint-disable testing-library/no-node-access */
 import { waitFor } from "@testing-library/react";
+import "@testing-library/jest-dom";
 import { act } from "react-dom/test-utils";
 
 describe("main", () => {
